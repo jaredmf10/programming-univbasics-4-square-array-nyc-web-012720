@@ -14,4 +14,4 @@ def square_array(numbers)
     numbers.index ** 2
   end
   square_array(numbers)
-end 
+end
