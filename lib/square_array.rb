@@ -1,9 +1,17 @@
+#def square_array(numbers)
+#counter = 0
+#  while numbers[counter] do
+#    numbers[counter]
+#    counter += 1
+#  end
+#  new_numbers = (numbers.square!)
+#  new_numbers
+#end
+
 def square_array(numbers)
-counter = 0
-  while numbers[counter] do
-    numbers[counter]
-    counter += 1
+  count = 0
+  while count < numbers.length 
+    numbers.index ** 2 
   end
-  new_numbers = (numbers.square!)
-  new_numbers
-end
+  square_array(numbers)
+end 
