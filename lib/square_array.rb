@@ -4,6 +4,6 @@ counter = 0
    numbers[counter]
     counter += 1
   end
-  new_numbers = (numbers*numbers)
+  new_numbers = (numbers*2)
   new_numbers
 end
