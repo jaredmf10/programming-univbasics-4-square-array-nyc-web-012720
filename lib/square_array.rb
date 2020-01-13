@@ -4,6 +4,6 @@ counter = 0
     numbers[counter]
     counter += 1
   end
-  new_numbers = numbers.square!
+  new_numbers = (numbers.square!)
   new_numbers
 end
