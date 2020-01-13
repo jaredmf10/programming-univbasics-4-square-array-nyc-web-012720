@@ -4,4 +4,5 @@ counter = 0
     numbers[counter]
     counter += 1
   end
+  numbers
 end
