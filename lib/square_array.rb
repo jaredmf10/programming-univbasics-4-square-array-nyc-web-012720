@@ -3,8 +3,7 @@ counter = 0
  while numbers[counter] do
    numbers[counter]
     counter += 1
-    numbers
   end
-  #new_numbers = (numbers.square!)
-  #new_numbers
+  new_numbers = (numbers*numbers)
+  new_numbers
 end
