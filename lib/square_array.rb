@@ -4,5 +4,5 @@ counter = 0
     numbers[counter]
     counter += 1
   end
-  numbers**2
+  numbers ** 2
 end
