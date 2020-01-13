@@ -5,4 +5,5 @@ counter = 0
     counter += 1
   end
   new_numbers = (numbers ** 2)
+  new_numbers
 end
