@@ -4,5 +4,6 @@ new_numbers = ((numbers)*2)
   while numbers[counter] do
     puts new_numbers[counter]
     counter += 1
+    new_numbers
   end
 end
